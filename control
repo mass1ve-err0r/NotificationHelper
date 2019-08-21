@@ -1,0 +1,9 @@
+Package: de.saadat603.notificationhelper
+Name: NotificationHelper
+Depends: preferenceloader, applist, net.tateu.sendtestbulletin12
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Notifications to the rescue
+Maintainer: Saadat Baig
+Author: Saadat Baig
+Section: Utilities

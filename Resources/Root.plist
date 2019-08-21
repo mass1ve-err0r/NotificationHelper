@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>NotificationHelper.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>App to Forge Notification from</string>
+			<key>footerText</key>
+			<string>NOTE: Some Applications may NOT produce notifications, others may fallback to Messages.</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>k_bid</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>ALNavigationTitle</key>
+			<string>Select Application</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Select Application</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/de.saadat603.notificationhelper.plist</string>
+			<key>ALSettingsKey</key>
+			<string>k_bid</string>
+			<key>ALSingleEnabledMode</key>
+			<true/>
+			<key>defaults</key>
+			<string>de.saadat603.notificationhelper</string>
+			<key>PostNotification</key>
+			<string>de.saadat603.notificationhelper/prefU</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Title / Name (Top Text)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Ex: Craig Frederighi</string>
+			<key>key</key>
+			<string>k_title</string>
+			<key>defaults</key>
+			<string>de.saadat603.notificationhelper</string>
+			<key>PostNotification</key>
+			<string>de.saadat603.notificationhelper/prefU</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Subtitle (Middle Text)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Leave empty if not needed</string>
+			<key>key</key>
+			<string>k_subtitle</string>
+			<key>defaults</key>
+			<string>de.saadat603.notificationhelper</string>
+			<key>PostNotification</key>
+			<string>de.saadat603.notificationhelper/prefU</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Message (Bottom Text)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
+			<string>Ex: You&apos;re Hired !</string>
+			<key>key</key>
+			<string>k_message</string>
+			<key>defaults</key>
+			<string>de.saadat603.notificationhelper</string>
+			<key>PostNotification</key>
+			<string>de.saadat603.notificationhelper/prefU</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Hot tip: To make a notification as real as possible, watch how it looks and then try to recreate it</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Create Notification</string>
+			<key>action</key>
+			<string>generateNotif</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>NotificationHelper</string>
+</dict>
+</plist>
